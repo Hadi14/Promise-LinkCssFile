@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    margin: 10px;
+    background-color: brown;
+    /* display: none; */
+    animation: fadeIn 5s;
+}
+
+body {
+    background-color: cadetblue;
+    border: 2px solid;
+    /* position: relative; */
+}
+
+.hide {
+    display: none;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#imgs {
+    position: absolute;
+    /* position: absolute; */
+    /* width: 100px; */
+}
